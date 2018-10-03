@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="lib/bootstrap.min.css">
+	<script src="lib/jquery.min.js"></script>
+	<script src="lib/bootstrap.min.js"></script>
+	<script src="script/myscripts.js"></script>
+
+</head>
+
+<body style="background: #0c0b0b;">
+
+
+	<!-- top navigation bar -->
+
+	<div class="top-nav">
+		<div align:left class="place">
+			<span style="position: absolute; margin-left: -28px; font-size: 31px;margin-top: -5px;">&#x22D6;</span>
+			<span style="font-weight: bold; font-size: 14px;">Manmargian</span><br>
+			<span>Carnival:Rehjan Maall, Gurgaon</span>
+		</div>
+
+		<div align="right" class="menu-button" data-toggle="modal" data-target="#myModal">
+			<span id="seat_text">6 tickets</span><span> &#x25BD;</span>
+		</div>
+	</div>
+
+	<!-- end of top nav bar -->
+
+
+
+
+
+
+	<!-- movie theater seats design with divs -->
+	<br><br>
+	<div id="premium" class="theatre" style="color: #a28d8d;">
+		<p style="position: absolute; margin-top: -21px;">PREMIUM-Rs 150.00</p><hr style="width: 50%; margin-left: 1px;">
+		<div class="cinema-seats left">
+			<div class="cinema-row row-1">
+				A   <div class="seat premium-seat" id="P1"></div>
+				    <div class="seat premium-seat" id="P2"></div>
+				    <div class="seat premium-seat" id="P3"></div>
+			</div>
+			<div class="cinema-row row-1">
+				B   <div class="seat premium-seat" id="P26"></div>
+				    <div class="seat premium-seat" id="P25"></div>
+				    <div class="seat premium-seat" id="P24"></div>
+			</div>
+			<div class="cinema-row row-1">
+				C   <div class="seat premium-seat" id="P27"></div>
+				    <div class="seat premium-seat" id="P28"></div>
+				    <div class="seat premium-seat" id="P29"></div>
+			</div>
+			<div class="cinema-row row-1">
+				D   <div class="seat premium-seat" id="P52"></div>
+				    <div class="seat premium-seat" id="P51"></div>
+				    <div class="seat premium-seat" id="P50"></div>
+			</div>
+			<div class="cinema-row row-1">
+				E   <div class="seat premium-seat" id="P53"></div>
+				    <div class="seat premium-seat" id="P54"></div>
+				    <div class="seat premium-seat" id="P55"></div>
+			</div>
+			<div class="cinema-row row-1">
+				F   <div class="seat premium-seat" id="P78"></div>
+				    <div class="seat premium-seat" id="P77"></div>
+				    <div class="seat premium-seat" id="P76"></div>
+			</div>
+		</div>
+
+		<div class="cinema-seats middle">
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P4"></div>
+				<div class="seat premium-seat" id="P5"></div>
+				<div class="seat premium-seat" id="P6"></div>
+				<div class="seat premium-seat" id="P7"></div>
+				<div class="seat premium-seat" id="P8"></div>
+				<div class="seat premium-seat" id="P9"></div>
+				<div class="seat premium-seat" id="P10"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P23"></div>
+				<div class="seat premium-seat" id="P22"></div>
+				<div class="seat premium-seat" id="P21"></div>
+				<div class="seat premium-seat" id="P20"></div>
+				<div class="seat premium-seat" id="P19"></div>
+				<div class="seat premium-seat" id="P18"></div>
+				<div class="seat premium-seat" id="P17"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P30"></div>
+				<div class="seat premium-seat" id="P31"></div>
+				<div class="seat premium-seat" id="P32"></div>
+				<div class="seat premium-seat" id="P33"></div>
+				<div class="seat premium-seat" id="P34"></div>
+				<div class="seat premium-seat" id="P35"></div>
+				<div class="seat premium-seat" id="P36"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P49"></div>
+				<div class="seat premium-seat" id="P48"></div>
+				<div class="seat premium-seat" id="P47"></div>
+				<div class="seat premium-seat" id="P46"></div>
+				<div class="seat premium-seat" id="P45"></div>
+				<div class="seat premium-seat" id="P44"></div>
+				<div class="seat premium-seat" id="P43"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P56"></div>
+				<div class="seat premium-seat" id="P57"></div>
+				<div class="seat premium-seat" id="P58"></div>
+				<div class="seat premium-seat" id="P59"></div>
+				<div class="seat premium-seat" id="P60"></div>
+				<div class="seat premium-seat" id="P61"></div>
+				<div class="seat premium-seat" id="P62"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P75"></div>
+				<div class="seat premium-seat" id="P74"></div>
+				<div class="seat premium-seat" id="P73"></div>
+				<div class="seat premium-seat" id="P72"></div>
+				<div class="seat premium-seat" id="P71"></div>
+				<div class="seat premium-seat" id="P70"></div>
+				<div class="seat premium-seat" id="P69"></div>
+			</div>
+		</div>
+
+		<div class="cinema-seats right">
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P11"></div>
+				<div class="seat premium-seat" id="P12"></div>
+				<div class="seat premium-seat" id="P13"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P16"></div>
+				<div class="seat premium-seat" id="P15"></div>
+				<div class="seat premium-seat" id="P14"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P37"></div>
+				<div class="seat premium-seat" id="P38"></div>
+				<div class="seat premium-seat" id="P39"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P42"></div>
+				<div class="seat premium-seat" id="P41"></div>
+				<div class="seat premium-seat" id="P40"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P63"></div>
+				<div class="seat premium-seat" id="P64"></div>
+				<div class="seat premium-seat" id="P65"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat premium-seat" id="P68"></div>
+				<div class="seat premium-seat" id="P67"></div>
+				<div class="seat premium-seat" id="P66"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="general" class="theatre" style="color: #a28d8d;">
+		<p style="position: absolute; margin-top: -21px;">GENERAL-Rs 100.00</p><hr style="width: 50%; margin-left: 1px;">
+		<div class="cinema-seats left">
+			<div class="cinema-row row-1">
+				G   <div class="seat general-seat" id="G1"></div>
+				    <div class="seat general-seat" id="G2"></div>
+				    <div class="seat general-seat" id="G3"></div>
+			</div>
+			<div class="cinema-row row-1">
+				H   <div class="seat general-seat" id="G26"></div>
+				    <div class="seat general-seat" id="G25"></div>
+				    <div class="seat general-seat" id="G24"></div>
+			</div>
+			<div class="cinema-row row-1">
+				I    <div class="seat general-seat" style="margin-left: 5px;" id="G27"></div>
+				     <div class="seat general-seat" id="G28"></div>
+				     <div class="seat general-seat" id="G29"></div>
+			</div>
+			<div class="cinema-row row-1">
+				J   <div class="seat general-seat" id="G52"></div>
+				    <div class="seat general-seat" id="G51"></div>
+				    <div class="seat general-seat" id="G50"></div>
+			</div>
+			<div class="cinema-row row-1">
+				K   <div class="seat general-seat" id="G53"></div>
+				    <div class="seat general-seat" id="G54"></div>
+				    <div class="seat general-seat" id="G55"></div>
+			</div>
+			<div class="cinema-row row-1">
+				L   <div class="seat general-seat" id="G78"></div>
+				    <div class="seat general-seat" id="G77"></div>
+				    <div class="seat general-seat" id="G76"></div>
+			</div>
+		</div>
+
+		<div class="cinema-seats middle">
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G4"></div>
+				<div class="seat general-seat" id="G5"></div>
+				<div class="seat general-seat" id="G6"></div>
+				<div class="seat general-seat" id="G7"></div>
+				<div class="seat general-seat" id="G8"></div>
+				<div class="seat general-seat" id="G9"></div>
+				<div class="seat general-seat" id="G10"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G23"></div>
+				<div class="seat general-seat" id="G22"></div>
+				<div class="seat general-seat" id="G21"></div>
+				<div class="seat general-seat" id="G20"></div>
+				<div class="seat general-seat" id="G19"></div>
+				<div class="seat general-seat" id="G18"></div>
+				<div class="seat general-seat" id="G17"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G30"></div>
+				<div class="seat general-seat" id="G31"></div>
+				<div class="seat general-seat" id="G32"></div>
+				<div class="seat general-seat" id="G33"></div>
+				<div class="seat general-seat" id="G34"></div>
+				<div class="seat general-seat" id="G35"></div>
+				<div class="seat general-seat" id="G36"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G49"></div>
+				<div class="seat general-seat" id="G48"></div>
+				<div class="seat general-seat" id="G47"></div>
+				<div class="seat general-seat" id="G46"></div>
+				<div class="seat general-seat" id="G45"></div>
+				<div class="seat general-seat" id="G44"></div>
+				<div class="seat general-seat" id="G43"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G56"></div>
+				<div class="seat general-seat" id="G57"></div>
+				<div class="seat general-seat" id="G58"></div>
+				<div class="seat general-seat" id="G59"></div>
+				<div class="seat general-seat" id="G60"></div>
+				<div class="seat general-seat" id="G61"></div>
+				<div class="seat general-seat" id="G62"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G75"></div>
+				<div class="seat general-seat" id="G74"></div>
+				<div class="seat general-seat" id="G73"></div>
+				<div class="seat general-seat" id="G72"></div>
+				<div class="seat general-seat" id="G71"></div>
+				<div class="seat general-seat" id="G70"></div>
+				<div class="seat general-seat" id="G69"></div>
+			</div>
+		</div>
+
+		<div class="cinema-seats right">
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G11"></div>
+				<div class="seat general-seat" id="G12"></div>
+				<div class="seat general-seat" id="G13"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G16"></div>
+				<div class="seat general-seat" id="G15"></div>
+				<div class="seat general-seat" id="G14"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G37"></div>
+				<div class="seat general-seat" id="G38"></div>
+				<div class="seat general-seat" id="G39"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G42"></div>
+				<div class="seat general-seat" id="G41"></div>
+				<div class="seat general-seat" id="G40"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G63"></div>
+				<div class="seat general-seat" id="G64"></div>
+				<div class="seat general-seat" id="G65"></div>
+			</div>
+			<div class="cinema-row row-1">
+				<div class="seat general-seat" id="G68"></div>
+				<div class="seat general-seat" id="G67"></div>
+				<div class="seat general-seat" id="G66"></div>
+			</div>
+		</div>
+	</div>
+
+<!-- end of movie theater seat design -->
+
+
+
+
+
+
+<!-- payment amount button -->
+<div align="center">
+<button type="button" class="btn btn-info btn-lg" id="continue_btn" style="background-color: #2c2263; border-color: #514596;margin-right: 34px;">Pay Rs. </button>
+</div>
+<!-- end of payment amount button -->
+
+
+
+
+
+
+<!-- Modal of selecting seats -->
+<div id="myModal" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h4 class="modal-title" align="center">How Many Seats?</h4>
+      </div>
+      <div class="modal-body">
+      	<img class="seat-img" src="images/quad.png" align="center">
+        <div claas="row">
+        	<div class="col-md-1"></div>
+        	<div class="col-md-1" id="seat1">1</div>
+        	<div class="col-md-1" id="seat2">2</div>
+        	<div class="col-md-1" id="seat3">3</div>
+        	<div class="col-md-1" id="seat4">4</div>
+        	<div class="col-md-1" id="seat5">5</div>
+        	<div class="col-md-1" id="seat6">6</div>
+        	<div class="col-md-1" id="seat7">7</div>
+        	<div class="col-md-1" id="seat8">8</div>
+        	<div class="col-md-1" id="seat9">9</div>
+        	<div class="col-md-1" id="seat10">10</div>
+        	<div class="col-md-1"></div>
+        </div><br><br><br>
+        <div>
+        	<div class="row" style="text-align: center;">
+        		<div class="col-md-3"></div>
+        		<div class="col-md-3"><span style="font-weight: 200;color: grey;">PREMIUM</span><br><span>Rs. 150.00</span><br><span style="color: #37c592;">Available</span></div>
+        		<div class="col-md-3"><span style="font-weight: 200;color: grey;">GENERAL</span><br><span>Rs. 100.00</span><br><span style="color: #37c592;">Available</span></div>
+        		<div class="col-md-3"></div>
+        	</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-lg" id="select_no_seat" style="width: 100%;">Select Seats</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end of modal for sealecting seats -->
+
+
+
+
+
+<!-- flags for number of seats and type of seat -->
+<input type="hidden" id="no_of_seats" value="">
+<input type="hidden" id="type_of_seat" value="">
+<!-- end of flags -->
+
+
+</body>
+
+</html>
